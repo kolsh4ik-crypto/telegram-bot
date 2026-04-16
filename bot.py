@@ -5,8 +5,8 @@ import urllib.parse
 import urllib.request
 import os
 
-BOT_TOKEN = os.environ.get("8262983992:AAGxrd2mNWfDx3HH85g4sVeJYcXRJ6yjY9k")
-CHANNEL_ID = int(os.environ.get("-1003813899947"))
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID"))
 
 API = f"https://api.telegram.org/bot{BOT_TOKEN}/"
 
